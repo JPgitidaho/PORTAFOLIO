@@ -4,7 +4,7 @@ const projects = [
     description: 'Pagina con filtros y modo responsivo React + Tailwind.',
     image: '/assets/hotel.png',
     span: 'lg:col-span-2 lg:row-span-1 lg:h-64',
-    demo: 'react-app-hotel.vercel.app/',
+    demo: 'https://react-app-hotel.vercel.app/',
     code: 'https://github.com/JPgitidaho/React-app-hotel'
   },
   {
@@ -36,8 +36,8 @@ const projects = [
     description: 'E-commerce-peticion de Api.',
     image: '/assets/proyecto-funval-3.png',
     span: 'lg:col-span-2 lg:h-64',
-    demo: '#',
-    code: '#'
+    demo: 'https://proyecto-funval-react3.vercel.app/',
+    code: 'https://github.com/JPgitidaho/proyecto-funval-react3'
   },
   {
     title: 'Clone-Snap',
