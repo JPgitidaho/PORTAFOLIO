@@ -1,5 +1,23 @@
 const projects = [
   {
+  title: 'Auth + Búsqueda Reactiva',
+  description: 'React + TypeScript: Context API (autenticación), RxJS (debounce), OpenAPI y deploy en Netlify (CI/CD).',
+  image: '/assets/Netlify.png',          
+  span: 'lg:col-span-2 lg:h-64',           
+  demo: 'https://inspiring-starship-02bf80.netlify.app/',
+  code: 'https://github.com/JPgitidaho/TU_REPO' 
+},
+{
+    title: 'Crecer-Marketing',
+    description: 'Projecto freelance para agencia de Marketing. Pagina con filtros y modo responsivo React + Tailwind.',
+    image: '/assets/crecer-marketing2.png',
+    span: 'lg:h-64',
+    demo: 'https://crecermarketing.vercel.app/',
+    code: 'https://github.com/JPgitidaho/crecermarketing'
+  },
+
+
+  {
     title: 'Hotel',
     description: 'Pagina con filtros y modo responsivo React + Tailwind.',
     image: '/assets/hotel.png',
