@@ -5,7 +5,7 @@ const projects = [
   image: '/assets/Netlify.png',          
   span: 'lg:col-span-2 lg:h-64',           
   demo: 'https://inspiring-starship-02bf80.netlify.app/',
-  code: 'https://github.com/JPgitidaho/TU_REPO' 
+  code: 'https://github.com/JPgitidaho/Proyect-Netlify' 
 },
 {
     title: 'Crecer-Marketing',
