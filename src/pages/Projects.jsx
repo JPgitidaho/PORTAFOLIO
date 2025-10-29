@@ -52,7 +52,7 @@ const projects = [
   {
     title: 'SleepOutside',
     description: 'E-commerce-peticion de Api.',
-    image: '/assets/sleep-outside',
+    image: '/assets/sleep-outside.png',
     span: 'lg:col-span-2 lg:h-64',
     demo: 'https://personal-sleep-outside.netlify.app/',
     code: 'https://github.com/JPgitidaho/wdd330personal-sleep-outside'
