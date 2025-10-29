@@ -13,12 +13,13 @@ export default function Home() {
           Desarrolladora frontend enfocada en diseño limpio, interfaces modernas y experiencias interactivas.
         </p>
         <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
-          <Link to="/projects" className="bg-cyan-500 px-6 py-3 rounded-xl text-white font-semibold hover:bg-cyan-600 transition duration-300">
-            Ver proyectos
-          </Link>
-          <Link to="/contact" className="border border-white px-6 py-3 rounded-xl text-white font-semibold hover:bg-white hover:text-black transition duration-300">
-            Contáctame
-          </Link>
+        <a
+          href="/assets/CV_Juana_Perez web.pdf"
+          download
+          className="inline-block mt-4 px-6 py-2 border border-cyan-400 text-cyan-400 rounded-lg hover:bg-cyan-400 hover:text-black transition"
+        >
+          Descargar CV
+        </a>
         </div>
       </div>
 

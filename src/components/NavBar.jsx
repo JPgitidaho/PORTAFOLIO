@@ -4,7 +4,6 @@ export default function Navbar() {
   const links = [
     { label: 'Inicio', path: '/' },
     { label: 'Proyectos', path: '/Projects' },
-    { label: 'Sobre mí', path: '/About' },
     { label: 'Habilidades', path: '/Skills' },
 
   ]
