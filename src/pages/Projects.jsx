@@ -28,10 +28,10 @@ const projects = [
   {
     title: 'Anitraker',
     description: 'AniTraker is a modern web app that lets users explore, track, and organize their favorite anime. Built with Vite and vanilla JavaScript, it features a responsive interface, dark/light mode, and dynamic content powered by the Jikan API',
-    image: '/assets/app-meal.png',
+    image: '/assets/anitraker-imag.png',
     span: 'lg:row-span-2 lg:h-[500px]',
-    demo: 'https://proyect-meal-app.vercel.app/',
-    code: 'https://github.com/JPgitidaho/proyect-Meal-App'
+    demo: 'https://anitraker.netlify.app/',
+    code: 'https://github.com/JPgitidaho/anitraker-api'
   },
   {
     title: 'Chamber of Comerce',
