@@ -50,12 +50,12 @@ const projects = [
     code: 'https://github.com/JPgitidaho/app-react-3'
   },
   {
-    title: 'Galeria de E-comerce',
+    title: 'SleepOutside',
     description: 'E-commerce-peticion de Api.',
-    image: '/assets/proyecto-funval-3.png',
+    image: '/assets/sleep-outside',
     span: 'lg:col-span-2 lg:h-64',
-    demo: 'https://proyecto-funval-react3.vercel.app/',
-    code: 'https://github.com/JPgitidaho/proyecto-funval-react3'
+    demo: 'https://personal-sleep-outside.netlify.app/',
+    code: 'https://github.com/JPgitidaho/wdd330personal-sleep-outside'
   },
   {
     title: 'Clone-Snap',
