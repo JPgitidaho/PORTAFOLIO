@@ -14,7 +14,7 @@ description: 'Sitio web desarrollado para una agencia de marketing, enfocado en 
     title: 'Hotel',
 description: 'Sitio web responsivo para hotel, con sistema de filtros para búsqueda de información. Desarrollo enfocado en usabilidad, navegación clara y adaptación a distintos dispositivos.',
     image: '/assets/hotel.png',
-span: 'lg:col-span-2 lg:h-64',
+span: 'lg:col-span-3 lg:h-64',
     demo: 'https://react-app-hotel.vercel.app/',
     code: 'https://github.com/JPgitidaho/React-app-hotel'
   },
@@ -31,7 +31,7 @@ description: 'E-commerce web con consumo de API para visualización dinámica de
   title: 'Auth + Búsqueda Reactiva',
 description: 'Aplicación web con sistema de autenticación y búsqueda reactiva. Implementación de Context API, debounce para optimizar búsquedas y despliegue automatizado.',
   image: '/assets/Netlify.png',          
-  span: 'lg:h-64',           
+  span: 'lg:col-span-2 lg:h-64',           
   demo: 'https://inspiring-starship-02bf80.netlify.app/',
   code: 'https://github.com/JPgitidaho/Proyect-Netlify' 
 }
@@ -45,7 +45,7 @@ export default function Projects() {
         Proyectos Destacados
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 auto-rows-[240px] gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 auto-rows-[240px] gap-6">
         {projects.map((proj, index) => (
           <div
             key={index}
