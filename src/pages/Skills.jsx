@@ -47,6 +47,13 @@ export default function Skills() {
             )
           })}
         </div>
+        <ul className="mt-16 space-y-2 text-gray-300 text-sm text-center">
+          <li>Diseño responsivo y mobile first</li>
+          <li>Código limpio y mantenible</li>
+          <li>Usabilidad y accesibilidad básica</li>
+          <li>Optimización básica de rendimiento</li>
+        </ul>
+
       </div>
     </section>
   )
