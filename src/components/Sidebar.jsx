@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <aside className="fixed top-0 left-0 h-screen w-20 md:w-48 bg-white/10 backdrop-blur-lg border-r border-white/20 shadow-lg z-50 flex flex-col items-center py-6 space-y-6 text-white">
       
-      <div className="text-2xl font-bold tracking-wide text-cyan-400">JP</div>
+      <div className="text-2xl font-bold tracking-wide text-cyan-400">JPxxxxx</div>
 
       <nav className="flex flex-col space-y-4 mt-10 w-full px-2">
         
