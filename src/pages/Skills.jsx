@@ -17,10 +17,32 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-[#0f172a] text-white px-6 py-24">
-      <h2 className="text-4xl md:text-5xl font-extrabold mb-16 text-cyan-400 text-center">
+    <section className="min-h-screen flex flex-col items-center justify-center bg-[#0f172a] text-white px-6 py-10">
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-10 text-cyan-400 text-center">
         Habilidades Técnicas
       </h2>
+      <div className="mt-4 max-w-2xl text-center text-gray-300 text-sm leading-relaxed">
+        <h3 className="text-cyan-400 font-semibold mb-3">
+          Qué puedo aportar
+        </h3>
+        <p>
+          Desarrollo interfaces web claras y responsivas, implemento componentes reutilizables con React
+          y trabajo con buenas prácticas de estructura, estilos y control de versiones. Me enfoco en
+          usabilidad, mantenimiento del código y experiencia de usuario.
+        </p>
+        <div className="mt-20 max-w-3xl text-center text-gray-300 text-sm leading-relaxed">
+          <h3 className="text-cyan-400 font-semibold mb-3">
+            Habilidades técnicas y enfoque de desarrollo
+          </h3>
+          <p>
+            Desarrollo aplicaciones web responsivas utilizando HTML, CSS, JavaScript y React.
+            Implemento interfaces modernas con Tailwind CSS, manejo estado y componentes reutilizables,
+            consumo APIs REST y trabajo con control de versiones usando Git. Experiencia en despliegue
+            de proyectos web y optimización básica de rendimiento y usabilidad.
+          </p>
+        </div>
+
+      </div>
 
       <div className="relative w-[320px] h-[320px] md:w-[400px] md:h-[400px] flex items-center justify-center">
         <div className="absolute w-28 h-28 rounded-full bg-cyan-500/20 border border-cyan-400 animate-pulse backdrop-blur flex items-center justify-center font-bold text-white text-center px-2 z-10">
@@ -53,13 +75,7 @@ export default function Skills() {
 
 
       </div>
-      <div>                
-        <ul className="mt-16 space-y-2 text-gray-300 text-xl text-center">
-        <li>Diseño responsivo y mobile first</li>
-        <li>Código limpio y mantenible</li>
-        <li>Usabilidad y accesibilidad básica</li>
-        <li>Optimización básica de rendimiento</li>
-      </ul></div>
+
 
     </section>
   )

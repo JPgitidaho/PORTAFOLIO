@@ -10,7 +10,7 @@ export default function NavBar() {
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white/10 backdrop-blur-lg border-b border-white/30">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-center gap-6 text-white">
+      <nav className="max-w-7xl mx-auto px-6 py-6 flex justify-center gap-6 text-white">
         {links.map(link => (
           <NavLink
             key={link.path}

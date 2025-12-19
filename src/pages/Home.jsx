@@ -3,7 +3,7 @@ import Tilt from 'react-parallax-tilt'
 
 export default function Home() {
   return (
-    <section className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 py-20 md:px-20 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white overflow-hidden">
+    <section className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 py-5 md:px-20 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white overflow-hidden">
       <div className="z-10 w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left space-y-6">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
           Hola, soy <span className="text-cyan-400">Juani</span>

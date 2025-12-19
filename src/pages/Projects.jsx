@@ -40,7 +40,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="min-h-screen px-6 md:px-20 py-24 bg-[#0f172a] text-white">
+    <section className="min-h-screen px-6 md:px-20 py-10 bg-[#0f172a] text-white">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-12 text-center text-cyan-400">
         Proyectos Destacados
       </h2>
