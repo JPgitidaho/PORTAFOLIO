@@ -1,13 +1,13 @@
 import { Link, NavLink } from 'react-router-dom'
 
 export default function Navbar() {
-  const links = [
-    { label: 'Inicio', path: '/' },
-    { label: 'Proyectos', path: '/Projects' },
-        { label: 'Perfil', path: '/Profile' },
-    { label: 'Habilidades', path: '/Skills' },
+const links = [
+  { label: 'Inicio', path: '/' },
+  { label: 'Proyectos', path: '/projects' },
+  { label: 'Perfil', path: '/profile' },
+  { label: 'Habilidades', path: '/skills' }
+]
 
-  ]
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-lg bg-white/10 border-b border-white/20 shadow-sm">
