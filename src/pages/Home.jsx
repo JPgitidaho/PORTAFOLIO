@@ -43,7 +43,7 @@ export default function Home() {
         <Tilt tiltMaxAngleX={20} tiltMaxAngleY={20} glareEnable={true} glareMaxOpacity={0.2} scale={1.05}>
           <div className="w-72 h-72 md:w-96 md:h-96 bg-white/10 border border-white/20 backdrop-blur-lg rounded-full shadow-2xl flex items-center justify-center">
             <img
-              src="/assets/imagen-portafolio.png"
+              src="/assets/imagen-portafolio.jpg"
               alt="JP anime"
               className="w-48 md:w-60 rounded-full border-4 border-white shadow-lg hover:scale-105 transition-transform duration-300"
             />
