@@ -14,9 +14,9 @@ export default function App() {
       <main className="pt-24">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Projects" element={<Projects />} />
+          <Route path="/projects" element={<Projects />} />
           <Route path="/profile" element={<Profile />} />
-          <Route path="/Skills" element={<Skills />} />
+          <Route path="/skills" element={<Skills />} />
         </Routes>
       </main>
     </div>
