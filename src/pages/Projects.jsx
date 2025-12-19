@@ -34,7 +34,7 @@ description: 'Aplicación web con sistema de autenticación y búsqueda reactiva
   span: 'lg:col-span-2 lg:h-64',           
   demo: 'https://inspiring-starship-02bf80.netlify.app/',
   code: 'https://github.com/JPgitidaho/Proyect-Netlify' 
-},
+}
 
 ]
 
