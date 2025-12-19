@@ -1,15 +1,8 @@
 const projects = [
-  {
-  title: 'Auth + Búsqueda Reactiva',
-  description: 'React + TypeScript: Context API (autenticación), RxJS (debounce), OpenAPI y deploy en Netlify (CI/CD).',
-  image: '/assets/Netlify.png',          
-  span: 'lg:col-span-2 lg:h-64',           
-  demo: 'https://inspiring-starship-02bf80.netlify.app/',
-  code: 'https://github.com/JPgitidaho/Proyect-Netlify' 
-},
+
 {
     title: 'Crecer-Marketing',
-    description: 'Projecto freelance para agencia de Marketing. Pagina con filtros y modo responsivo React + Tailwind.',
+description: 'Sitio web desarrollado para una agencia de marketing, enfocado en presentar servicios y facilitar la navegación del usuario. Diseño responsivo con filtros de contenido y estructura clara orientada a negocio.',
     image: '/assets/crecer-marketing-img.png',
     span: 'lg:h-64',
     demo: 'https://crecermarketing-web.vercel.app/',
@@ -19,52 +12,30 @@ const projects = [
 
   {
     title: 'Hotel',
-    description: 'Pagina con filtros y modo responsivo React + Tailwind.',
+description: 'Sitio web responsivo para hotel, con sistema de filtros para búsqueda de información. Desarrollo enfocado en usabilidad, navegación clara y adaptación a distintos dispositivos.',
     image: '/assets/hotel.png',
     span: 'lg:col-span-2 lg:row-span-1 lg:h-64',
     demo: 'https://react-app-hotel.vercel.app/',
     code: 'https://github.com/JPgitidaho/React-app-hotel'
   },
-  {
-    title: 'Anitraker',
-    description: 'AniTraker is a modern web app that lets users explore, track, and organize their favorite anime. Built with Vite and vanilla JavaScript, it features a responsive interface, dark/light mode, and dynamic content powered by the Jikan API',
-    image: '/assets/anitraker-imag.png',
-    span: 'lg:row-span-2 lg:h-[500px]',
-    demo: 'https://anitraker.netlify.app/',
-    code: 'https://github.com/JPgitidaho/anitraker-api'
-  },
-  {
-    title: 'Chamber of Comerce',
-    description: 'Pagina con filtros y modo responsivo CSS+HTML+JS.',
-    image: '/assets/chamber.png',
-    span: '',
-    demo: 'https://jpgitidaho.github.io/Chamber-of-Commerce-Project/',
-    code: 'https://github.com/JPgitidaho/Chamber-of-Commerce-Project'
-  },
-  {
-    title: 'Clone Figma Design',
-    description: 'Pagina creada deacuerdo a diseño de Figma. Seguimiento de especificaciones y fiel al detalle.',
-    image: '/assets/figma-project.png',
-    span: '',
-    demo: 'https://app-react-3.vercel.app/',
-    code: 'https://github.com/JPgitidaho/app-react-3'
-  },
+
   {
     title: 'SleepOutside',
-    description: 'E-commerce-peticion de Api.',
+description: 'E-commerce web con consumo de API para visualización dinámica de productos. Implementación orientada a funcionalidad, estructura clara y experiencia de usuario.',
     image: '/assets/sleep-outside.png',
     span: 'lg:col-span-2 lg:h-64',
     demo: 'https://personal-sleep-outside.netlify.app/',
     code: 'https://github.com/JPgitidaho/wdd330personal-sleep-outside'
   },
-  {
-    title: 'Clone-Snap',
-    description: 'Pagina creada deacuerdo a diseño de Figma. Seguimiento de especificaciones y fiel al detalle.',
-    image: '/assets/Clon-SNAP.png',
-    span: 'lg:h-64',
-    demo: 'https://proyect-react-funval2.vercel.app/',
-    code: 'https://github.com/JPgitidaho/proyect-react-funval2'
-  },
+    {
+  title: 'Auth + Búsqueda Reactiva',
+description: 'Aplicación web con sistema de autenticación y búsqueda reactiva. Implementación de Context API, debounce para optimizar búsquedas y despliegue automatizado.',
+  image: '/assets/Netlify.png',          
+  span: 'lg:col-span-2 lg:h-64',           
+  demo: 'https://inspiring-starship-02bf80.netlify.app/',
+  code: 'https://github.com/JPgitidaho/Proyect-Netlify' 
+},
+
 ]
 
 export default function Projects() {
