@@ -60,7 +60,7 @@ export default function Projects() {
               <h3 className="text-2xl font-bold text-white">{proj.title}</h3>
               <p className="text-sm text-gray-300 mb-4">{proj.description}</p>
               <div className="flex gap-4">
-                <a href={proj.demo} target="_blank" className="text-cyan-400 hover:underline text-sm">link</a>
+                <a href={proj.demo} target="_blank" className="text-cyan-400 hover:underline text-sm">Demo</a>
                 <a href={proj.code} target="_blank" className="text-cyan-400 hover:underline text-sm">Código</a>
               </div>
             </div>
