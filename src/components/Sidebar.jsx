@@ -33,19 +33,6 @@ export default function Sidebar() {
           <span className="hidden md:inline">Proyectos</span>
         </NavLink>
 
-       
-        <NavLink
-          to="/profile"
-          className={({ isActive }) =>
-            `flex items-center gap-2 py-2 px-4 rounded-lg transition-all duration-300 ${
-              isActive ? 'bg-cyan-600 text-white' : 'hover:bg-cyan-500/40'
-            }`
-          }
-        >
-          <FaUser className="text-lg" />
-          <span className="hidden md:inline">Perfil</span>
-        </NavLink>
-
         <NavLink
           to="/skills"
           className={({ isActive }) =>
