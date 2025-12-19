@@ -4,7 +4,7 @@ const projects = [
     title: 'Crecer-Marketing',
 description: 'Sitio web desarrollado para una agencia de marketing, enfocado en presentar servicios y facilitar la navegación del usuario. Diseño responsivo con filtros de contenido y estructura clara orientada a negocio.',
     image: '/assets/crecer-marketing-img.png',
-    span: 'lg:h-64',
+        span: 'lg:col-span-2 lg:row-span-1 lg:h-64',
     demo: 'https://crecermarketing-web.vercel.app/',
     code: 'https://github.com/JPgitidaho/crecermarketing'
   },
@@ -14,7 +14,7 @@ description: 'Sitio web desarrollado para una agencia de marketing, enfocado en 
     title: 'Hotel',
 description: 'Sitio web responsivo para hotel, con sistema de filtros para búsqueda de información. Desarrollo enfocado en usabilidad, navegación clara y adaptación a distintos dispositivos.',
     image: '/assets/hotel.png',
-    span: 'lg:col-span-2 lg:row-span-1 lg:h-64',
+span: 'lg:h-64',
     demo: 'https://react-app-hotel.vercel.app/',
     code: 'https://github.com/JPgitidaho/React-app-hotel'
   },
