@@ -1,6 +1,6 @@
 export default function Profile() {
   return (
-    <section className="px-6 md:px-20 py-24 bg-[#0f172a] text-white">
+    <section className="px-6 md:px-20 py-24">
       <h2 className="text-4xl md:text-5xl font-extrabold mb-10 text-center text-cyan-400">
         Perfil Profesional
       </h2>
