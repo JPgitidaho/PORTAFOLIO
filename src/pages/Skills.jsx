@@ -12,7 +12,6 @@ const skills = [
   { name: 'React', icon: <FaReact className="text-cyan-400 text-2xl" /> },
   { name: 'Tailwind', icon: <SiTailwindcss className="text-sky-400 text-2xl" /> },
   { name: 'Node.js', icon: <FaNodeJs className="text-green-500 text-2xl" /> },
-  { name: 'Python', icon: <SiPython className="text-yellow-300 text-2xl" /> },
   { name: 'Git', icon: <FaGitAlt className="text-orange-600 text-2xl" /> }
 ]
 
@@ -25,7 +24,8 @@ export default function Skills() {
 
       <div className="relative w-[320px] h-[320px] md:w-[400px] md:h-[400px] flex items-center justify-center">
         <div className="absolute w-28 h-28 rounded-full bg-cyan-500/20 border border-cyan-400 animate-pulse backdrop-blur flex items-center justify-center font-bold text-white text-center px-2 z-10">
-          Full Stack
+          Web Developer
+
         </div>
 
         <div className="absolute inset-0 orbiting">
