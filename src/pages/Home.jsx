@@ -7,11 +7,27 @@ export default function Home() {
     <section className="relative min-h-screen flex flex-col-reverse md:flex-row items-center justify-between px-6 py-20 md:px-20 bg-gradient-to-br from-[#0f172a] via-[#1e293b] to-[#0f172a] text-white overflow-hidden">
       <div className="z-10 w-full md:w-1/2 mt-10 md:mt-0 text-center md:text-left space-y-6">
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-          Hola, soy <span className="text-cyan-400">JP</span>
+          Hola, soy <span className="text-cyan-400">Juani</span>
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-md mx-auto md:mx-0">
-          Desarrolladora frontend enfocada en diseño limpio, interfaces modernas y experiencias interactivas.
-        </p>
+          Web Developer enfocada en crear sitios web funcionales y responsivos para pequeñas y medianas empresas.</p>
+        <p className="text-lg md:text-xs text-gray-300 max-w-md mx-auto md:mx-0">
+          Desarrollo sitios web modernos, claros y fáciles de mantener, con foco en usabilidad, rendimiento y experiencia del usuario.</p>
+          <ul className="mt-4 space-y-2 text-gray-300 max-w-md mx-auto md:mx-0">
+  <li className="flex items-start gap-2">
+    <span className="text-cyan-400">•</span>
+    <span>Responsive website development</span>
+  </li>
+  <li className="flex items-start gap-2">
+    <span className="text-cyan-400">•</span>
+    <span>React-based interface implementation</span>
+  </li>
+  <li className="flex items-start gap-2">
+    <span className="text-cyan-400">•</span>
+    <span>Basic performance and usability optimization</span>
+  </li>
+</ul>
+
         <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
         <a
           href="/assets/CV_Juana_Perez web.pdf"
