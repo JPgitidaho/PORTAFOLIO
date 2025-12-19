@@ -29,6 +29,7 @@ export default function Skills() {
         </div>
 
         <div className="absolute inset-0 orbiting">
+
           {skills.map((skill, index) => {
             const angle = (360 / skills.length) * index
             const x = 140 * Math.cos((angle * Math.PI) / 180)
@@ -46,15 +47,20 @@ export default function Skills() {
               </div>
             )
           })}
+
+
         </div>
-        <ul className="mt-16 space-y-2 text-gray-300 text-sm text-center">
-          <li>Diseño responsivo y mobile first</li>
-          <li>Código limpio y mantenible</li>
-          <li>Usabilidad y accesibilidad básica</li>
-          <li>Optimización básica de rendimiento</li>
-        </ul>
+
 
       </div>
+      <div>                
+        <ul className="mt-16 space-y-2 text-gray-300 text-sm text-center">
+        <li>Diseño responsivo y mobile first</li>
+        <li>Código limpio y mantenible</li>
+        <li>Usabilidad y accesibilidad básica</li>
+        <li>Optimización básica de rendimiento</li>
+      </ul></div>
+
     </section>
   )
 }
