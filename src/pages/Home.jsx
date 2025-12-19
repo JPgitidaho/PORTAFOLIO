@@ -12,7 +12,7 @@ export default function Home() {
         <p className="text-lg md:text-xl text-gray-300 max-w-md mx-auto md:mx-0">
           Web Developer enfocada en crear sitios web funcionales y responsivos para pequeñas y medianas empresas.</p>
         <p className="text-lg md:text-xs text-gray-300 max-w-md mx-auto md:mx-0">
-          Desarrollo sitios web modernos, claros y fáciles de mantener, con foco en usabilidad, rendimiento y experiencia del usuario.</p>
+          Desarrollo sitios web modernos, claros y fáciles de mantener, orientados a resolver necesidades reales de negocio</p>
         <ul className="mt-4 space-y-2 text-gray-300 max-w-md mx-auto md:mx-0">
           <li className="flex items-start gap-2">
           <span className="text-cyan-400">•</span>
