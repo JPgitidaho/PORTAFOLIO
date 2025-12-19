@@ -54,7 +54,7 @@ export default function Skills() {
 
       </div>
       <div>                
-        <ul className="mt-16 space-y-2 text-gray-300 text-sm text-center">
+        <ul className="mt-16 space-y-2 text-gray-300 text-xl text-center">
         <li>Diseño responsivo y mobile first</li>
         <li>Código limpio y mantenible</li>
         <li>Usabilidad y accesibilidad básica</li>
