@@ -13,21 +13,20 @@ export default function Home() {
           Web Developer enfocada en crear sitios web funcionales y responsivos para pequeñas y medianas empresas.</p>
         <p className="text-lg md:text-xs text-gray-300 max-w-md mx-auto md:mx-0">
           Desarrollo sitios web modernos, claros y fáciles de mantener, con foco en usabilidad, rendimiento y experiencia del usuario.</p>
-          <ul className="mt-4 space-y-2 text-gray-300 max-w-md mx-auto md:mx-0">
-  <li className="flex items-start gap-2">
-    <span className="text-cyan-400">•</span>
-    <span>Responsive website development</span>
-  </li>
-  <li className="flex items-start gap-2">
-    <span className="text-cyan-400">•</span>
-    <span>React-based interface implementation</span>
-  </li>
-  <li className="flex items-start gap-2">
-    <span className="text-cyan-400">•</span>
-    <span>Basic performance and usability optimization</span>
-  </li>
-</ul>
-
+        <ul className="mt-4 space-y-2 text-gray-300 max-w-md mx-auto md:mx-0">
+          <li className="flex items-start gap-2">
+          <span className="text-cyan-400">•</span>
+          <span>Desarrollo de sitios web responsivos</span>
+        </li>
+        <li className="flex items-start gap-2">
+        <span className="text-cyan-400">•</span>
+        <span>Implementación de interfaces con React</span>
+        </li>
+        <li className="flex items-start gap-2">
+        <span className="text-cyan-400">•</span>
+        <span>Optimización básica de rendimiento y usabilidad</span>
+        </li>
+        </ul>
         <div className="flex flex-col md:flex-row gap-4 justify-center md:justify-start">
         <a
           href="/assets/CV_Juana_Perez web.pdf"
