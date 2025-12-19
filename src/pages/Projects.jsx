@@ -10,9 +10,9 @@ const projects = [
 {
     title: 'Crecer-Marketing',
     description: 'Projecto freelance para agencia de Marketing. Pagina con filtros y modo responsivo React + Tailwind.',
-    image: '/assets/crecer-marketing2.png',
+    image: '/assets/crecer-marketing-img.png',
     span: 'lg:h-64',
-    demo: 'https://crecer-marketing-img.png',
+    demo: 'https://crecermarketing-web.vercel.app/',
     code: 'https://github.com/JPgitidaho/crecermarketing'
   },
 
