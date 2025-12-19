@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
-
 import Home from './pages/Home'
 import Projects from './pages/Projects'
 import Profile from './pages/profile'
 import Skills from './pages/Skills'
 import Contact from './pages/Contact'
+
 
 export default function App() {
   return (
