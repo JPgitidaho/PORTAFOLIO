@@ -58,18 +58,6 @@ export default function Sidebar() {
           <span className="hidden md:inline">Habilidades</span>
         </NavLink>
 
-        <NavLink
-          to="/contact"
-          className={({ isActive }) =>
-            `flex items-center gap-2 py-2 px-4 rounded-lg transition-all duration-300 ${
-              isActive ? 'bg-cyan-600 text-white' : 'hover:bg-cyan-500/40'
-            }`
-          }
-        >
-          <FaEnvelope className="text-lg" />
-          <span className="hidden md:inline">Contacto</span>
-        </NavLink>
-
       </nav>
     </aside>
   )
